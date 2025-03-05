@@ -1,0 +1,30 @@
+public class laptop {
+    private int ram;
+    private int hdd;
+    private String os;
+    private String color;
+
+
+    public laptop(int ram, int hdd, String os, String color) {
+        this.ram = ram;
+        this.hdd = hdd;
+        this.os = os;
+        this.color = color;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public int getHdd(){
+        return hdd;
+    }
+
+    public String getOs(){
+        return os;
+    }
+
+    public String getColor(){
+        return color;
+    }
+}
