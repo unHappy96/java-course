@@ -1,11 +1,11 @@
-public class laptop {
+public class Laptop {
     private int ram;
     private int hdd;
     private String os;
     private String color;
 
 
-    public laptop(int ram, int hdd, String os, String color) {
+    public Laptop(int ram, int hdd, String os, String color) {
         this.ram = ram;
         this.hdd = hdd;
         this.os = os;
