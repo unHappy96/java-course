@@ -27,4 +27,5 @@ public class Laptop {
     public String getColor(){
         return color;
     }
+
 }
